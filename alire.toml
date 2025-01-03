@@ -1,0 +1,16 @@
+name = "windowing"
+description = "Windowing exercises for operating systems."
+version = "0.1.0-dev"
+
+authors = ["Miko Elbrecht"]
+maintainers = ["Miko Elbrecht <tcgytsc@gmail.com>"]
+maintainers-logins = ["ATPStorages"]
+licenses = "Apache-2.0 WITH LLVM-exception"
+website = ""
+tags = []
+
+[[depends-on]]
+awtk = "~0.1.0-dev"
+
+[[pins]]
+awtk = { url='https://github.com/ATPStorages/awtk.git' }
